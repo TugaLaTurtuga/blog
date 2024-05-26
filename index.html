@@ -16,12 +16,19 @@
       position: relative; /* To enable absolute positioning within this div */
       background-color: rgba(0, 0, 0, .98);
       height: 17vh; /* Adjust this value as needed */
-      padding: 15px 0; /* Optional: Add padding to increase height */
+      padding: 25px 0; /* Optional: Add padding to increase height */
       display: flex;
       flex-direction: column; /* Stack child elements vertically */
       align-items: center; /* Center elements horizontally */
       justify-content: center; /* Center elements vertically */
     }
+
+    .PageSubTitle {
+      font-family: 'Arial Medium', Arial, sans-serif;
+      font-size: 18px;
+      margin-bottom: 75px; /* Adjust this value to move the subtitle up */
+    }
+
 
     .imageContainer {
       position: absolute;
@@ -58,11 +65,6 @@
     .MediumText {
       font-family: 'Arial' , Arial, sans-serif;
       font-size: 32px;
-    }
-
-    .LargeText {
-      font-family: 'Arial Bold' , Arial, sans-serif;
-      font-size: 64px;
     }
 
     .Pages {
@@ -129,10 +131,18 @@
       margin-left: 6%;
     }
 
-    .BlogSubTitle {
-      text-align: left;
-      margin-left: 5%;
+    .LargeText {
+      font-family: 'Arial Bold', Arial, sans-serif;
+      font-size: 64px;
+      margin-bottom: 20px; /* Adjust this value to control the space between LargeText and PageSubTitle */
     }
+
+    .PageSubTitle {
+      font-family: 'Arial Medium', Arial, sans-serif;
+      font-size: 18px;
+      margin-top: -10px; /* Adjust this value to bring PageSubTitle close to LargeText */
+    }
+
 
     .BlogImage{
       display: block; /* Ensure the image is displayed as a block element */
@@ -147,7 +157,7 @@
 <body>
   <div class="BodyTitle">
     <p class="LargeText">This is TugaLaTurtuga's blog!</p> 
-    <p class="smallText">This is my website!</p>
+    <p class="PageSubTitle">This is my website!</p>
     
     <div class="imageContainer">
       <a href="https://tugalaturtuga.github.io/home/" target="_self" title="Main page">
