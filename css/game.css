@@ -33,8 +33,10 @@
     line-height: 16px;
     padding: 8px 12px;
     font-size: 14px;
-    
-
+    max-width: 90%;
+    word-break: normal;
+    white-space: nowrap; /* Prevent words from wrapping */
+    overflow:scroll; /* Hide overflow text */
 
     background-color: var(--codeBackgroundColor);
     box-shadow: 10%;
