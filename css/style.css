@@ -133,11 +133,6 @@ body {
     color: var(--SecundaryColor);
     padding: 10px;
     background-color: transparent;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 700;
-    word-spacing: 1px;
-    letter-spacing: .4px;
-    color: var(--SecundaryColor);
 }
 
 .othersimage{
@@ -152,11 +147,13 @@ body {
     padding: 10px;
     text-align-last: center;
 
+    color: var(--SecundaryColor);
+    padding: 10px;
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 700;
+    word-spacing: 1px;
     letter-spacing: .4px;
-    padding-left: 5px;
-    padding-right: 5px;
+    color: var(--SecundaryColor);;
 }
 
 a, a:hover, a:visited, a:active {
