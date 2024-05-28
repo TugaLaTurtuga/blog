@@ -147,10 +147,9 @@ body {
 .tugablog{
     position: fixed;
     background: transparent;
+    width: 100%;
     bottom: 0;
     padding: 10px;
-    right: 0px;
-    width: 100%;
     text-align-last: center;
 
     font-family: "IBM Plex Sans", sans-serif;
