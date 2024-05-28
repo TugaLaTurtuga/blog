@@ -141,7 +141,23 @@ body {
 }
 
 .othersimage{
-    margin-left: .15%;
+    margin-left: -0px;
+}
+
+.tugablog{
+    position: fixed;
+    background: transparent;
+    bottom: 0;
+    padding: 10px;
+    right: 0px;
+    width: 100%;
+    text-align-last: center;
+
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: .4px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 a, a:hover, a:visited, a:active {
