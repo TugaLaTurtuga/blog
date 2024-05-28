@@ -142,7 +142,8 @@ body {
 .tugablog{
     position: fixed;
     background-color: transparent;
-    width: 100%;
+    width: 10%;
+    right: 50%
     bottom: 0;
     padding: 10px;
     text-align-last: center;
@@ -154,6 +155,9 @@ body {
     word-spacing: 1px;
     letter-spacing: .4px;
     color: var(--SecundaryColor);;
+    word-break: normal;
+    white-space: nowrap; /* Prevent words from wrapping */
+    overflow: show; /* Hide overflow text */
 }
 
 a, a:hover, a:visited, a:active {
