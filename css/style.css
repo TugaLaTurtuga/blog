@@ -132,7 +132,6 @@ body {
     background-color: var(--PrimaryColor);
     color: var(--SecundaryColor);
     padding: 10px;
-    background-color: transparent;
 }
 
 .othersimage{
@@ -143,8 +142,8 @@ body {
     position: fixed;
     background-color: transparent;
     width: 10%;
-    right: 50%
-    bottom: 0;
+    right: 46%;
+    bottom: 0px;
     padding: 10px;
     text-align-last: center;
 
