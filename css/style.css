@@ -129,10 +129,10 @@ body {
     text-align-last: left;
     width: 100%;
     bottom: 0;
-    background-color: var(--PrimaryColor);
+    
     color: var(--SecundaryColor);
     padding: 10px;
-
+    background-color: transparent;
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 700;
     word-spacing: 1px;
@@ -146,7 +146,7 @@ body {
 
 .tugablog{
     position: fixed;
-    background: transparent;
+    background-color: var(--PrimaryColor);
     width: 100%;
     bottom: 0;
     padding: 10px;
